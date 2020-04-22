@@ -32,10 +32,13 @@ my_tuple = None
 cards = []
 
 for i in range(0, 4):
+    # Dans un jeu, il y a les cartes de 1 à 10 et les têtes, dans 4 couleurs.
+    # Pour les têtes : valet = 11, reine = 12 et roi = 13
+    # Pour les couleurs : cœur = 0, carreau = 1, pique = 2, trèfle = 3
     for j in range(1, 14):
         if i == 0:
             color = 'rouge'
-            symbol = 'cœeur'
+            symbol = 'cœur'
         elif i == 1:
             color = 'rouge'
             symbol = 'carreau'
@@ -94,17 +97,17 @@ alice.clear()
 # Rédigez le code qui effectue ces opérations.
 # Ensuite affichez le nombre de cartes qui restent dans le jeu et enfin remettez toutes les cartes dans le jeu.
 
-# exo 4.2 : Bob tire 3 cartes au hasard (sans les remettre dans le jeu) et les met dans son paquet.
+# exo 4.3 : Bob tire 3 cartes au hasard (sans les remettre dans le jeu) et les met dans son paquet.
 # Rédigez le code qui effectue ces opérations.
 # Ensuite affichez le paquet de Bob, le nombre de cartes qui restent dans le jeu et remettez toutes les cartes dans le jeu.
 
-# exo 4.3 : Alice et Bob parient en jouant aux cartes.
+# exo 4.4 : Alice et Bob parient en jouant aux cartes.
 # Voici comment se déroule le jeu :
-# 1. Bob mélange les cartes, puis Alice tire 3 cartes.
-# 2. Elle parie que si un 3 ou 2 cœeurs figurent parmi les cartes tirées, elle gagne.
+# 1. Bob mélange les cartes, puis Alice tire trois cartes.
+# 2. Elle parie que si un 3 (de n'importe quelle couleur) ou deux cœurs figurent parmi les cartes tirées, elle gagne.
 # 3. Alice remets ses cartes dans le jeu, le mélange à nouveau, puis Bob tire 3 cartes.
-# 4. Il parie que si un 7 ou 2 piques figurent parmi les cartes tirées, il gagne.
+# 4. Il parie que si un 7 (de n'importe quelle couleur) ou deux piques figurent parmi les cartes tirées, il gagne.
 # 5. Bob remet ses cartes dans le jeu, ce qui termine une manche.
-# Ils décident de faire 3 manches.
-# Rédigez le code qui modélise ce jeu et indiquez qui sera le gagnant des 3 manches.
+# Ils décident de faire trois manches.
+# Rédigez le code qui modélise ce jeu et indiquez qui sera le gagnant des trois manches.
 
