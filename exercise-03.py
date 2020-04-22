@@ -67,6 +67,6 @@ print(f"Il y a {percentage:.0f} % de chance d'avoir pile avec deux lancers")
 # Rédigez le code qui indique la probabilité que Bob gagne.
 
 # exo 3.3 : Alice parie qu'elle va obtenir au moins 2 fois pile, avec 3 lancers.
-# Avant d'écrire le code, détaillez toutes les issues possibles pour Bob.
-# Puis rédigez le code qui indique la probabilité que Bob gagne.
+# Avant d'écrire le code, détaillez toutes les issues possibles pour Alice.
+# Puis rédigez le code qui indique la probabilité que Alice gagne.
 
